@@ -14,7 +14,7 @@ namespace BankAccount.Controller
             users.Remove(index);
 
         }
-        public int ShowInventory(int id)
+        public int GetInventory(int id)
         {
             return users[id];
         }

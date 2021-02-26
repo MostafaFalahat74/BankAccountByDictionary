@@ -112,7 +112,7 @@ namespace BankAccount
                         if (accountExist != 0)
                         {
                             Console.Clear();
-                            var inventoryAccount = operations.ShowInventory(accountExist);
+                            var inventoryAccount = operations.GetInventory(accountExist);
                             Console.WriteLine($" inventor of account {accountDeposit} is {inventoryAccount}");
                         }
                         else
